@@ -1,0 +1,69 @@
+{
+    "station_id": "1160629000",
+    "start_date": "2017-04-15 11:00:03",
+    "end_date": "2017-04-18 23:59:35",
+    "timestamp": "2021-12-08 14:15:58.984355",
+    "parameter_id": "112",
+    "experiment_id": "ddfb43fa237f44c09a767e6e1bc09766",
+    "mean_val": 19.50286517061629,
+    "max_val": 1.0,
+    "drift_objects": [
+        {
+            "drift_method": "adwin",
+            "total_drifts": 26,
+            "start_date": "2017-04-15 17:38:28",
+            "end_date": "2017-04-18 07:39:52",
+            "max_value_drift": 24.0,
+            "min_value_drift": 14.0,
+            "drift_values": {
+                "20.0": 8,
+                "18.0": 5,
+                "22.0": 4,
+                "14.0": 2,
+                "16.0": 2,
+                "21.0": 2,
+                "24.0": 1,
+                "23.0": 1,
+                "19.0": 1
+            }
+        },
+        {
+            "drift_method": "hddm_a",
+            "total_drifts": 1523,
+            "start_date": "2017-04-15 11:01:05",
+            "end_date": "2017-04-18 23:56:26",
+            "max_value_drift": 25.0,
+            "min_value_drift": 16.0,
+            "drift_values": {
+                "21.0": 407,
+                "22.0": 277,
+                "18.0": 274,
+                "17.0": 205,
+                "24.0": 87,
+                "20.0": 87,
+                "19.0": 75,
+                "23.0": 75,
+                "25.0": 35,
+                "16.0": 1
+            }
+        },
+        {
+            "drift_method": "kswin",
+            "total_drifts": 32,
+            "start_date": "2017-04-15 12:30:19",
+            "end_date": "2017-04-18 20:14:16",
+            "max_value_drift": 21.0,
+            "min_value_drift": 15.0,
+            "drift_values": {
+                "20.0": 7,
+                "17.0": 7,
+                "18.0": 7,
+                "19.0": 6,
+                "16.0": 3,
+                "15.0": 1,
+                "21.0": 1
+            }
+        }
+    ],
+    "dataset_drift_score": 0.826530612244898
+}
